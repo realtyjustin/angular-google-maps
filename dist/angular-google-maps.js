@@ -7568,6 +7568,9 @@ StreetViewPanorama Directive to care of basic initialization of StreetViewPanora
                 scope.control.getGObject = function() {
                   return sv;
                 };
+                scope.control.getGPano = function() {
+                  return pano;
+                };
               }
               scope.$watch('options', function(newValue, oldValue) {
                 if (newValue === oldValue || newValue === opts || didCreateOptionsFromDirective) {
