@@ -10,6 +10,7 @@ angular.module('uiGmapgoogle-maps')
 .directive 'uiGmapStreetViewPanorama', ['uiGmapGoogleMapApi', 'uiGmapLogger', 'uiGmapGmapUtil', 'uiGmapEventsHelper'
   (GoogleMapApi, $log, GmapUtil, EventsHelper) ->
     name = 'uiGmapStreetViewPanorama'
+    console.log 'uigmap directive on'
 
     restrict: 'EMA'
     template: '<div class="angular-google-map-street-view-panorama"></div>'
