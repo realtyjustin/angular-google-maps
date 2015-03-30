@@ -1,4 +1,4 @@
-/*! angular-google-maps 2.1.0-X.7 2015-03-27
+/*! angular-google-maps 2.1.0-X.7 2015-03-30
  *  AngularJS directives for Google Maps
  *  git: https://github.com/angular-ui/angular-google-maps.git
  */
@@ -7467,6 +7467,7 @@ StreetViewPanorama Directive to care of basic initialization of StreetViewPanora
     'uiGmapGoogleMapApi', 'uiGmapLogger', 'uiGmapGmapUtil', 'uiGmapEventsHelper', function(GoogleMapApi, $log, GmapUtil, EventsHelper) {
       var name;
       name = 'uiGmapStreetViewPanorama';
+      console.log('uigmap directive on');
       return {
         restrict: 'EMA',
         template: '<div class="angular-google-map-street-view-panorama"></div>',
