@@ -16,5 +16,6 @@ This directive creates a new scope.
 ###
 angular.module('uiGmapgoogle-maps')
 .directive 'uiGmapMarkers', ['$timeout', 'uiGmapMarkers', ($timeout, Markers) ->
+        console.log "making markers"
         new Markers($timeout)
     ]
